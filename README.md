@@ -30,8 +30,8 @@ This library will help you out as a frontend input data encryption before callin
 
 <h6>"yourSecretKey" this filed is mandatory for data encryption or decryption, & both should be matched</h6>
 <h6> Suppose you have a login form and you want your password should encrypted before calling any server technologies, then see the example </h6>
-ex: <code>< input type = 'password' name = 'pwd' id = 'userPwd' placeholder = 'Enter Password' ></code>
-<code>
+<p>ex: <code>< input type = 'password' name = 'pwd' id = 'userPwd' placeholder = 'Enter Password' ></code></p>
+<p><code>
  <script type = 'text/javascript'>
  function encwd(){
      var getPwd = $("#userPwd").val();
@@ -40,3 +40,4 @@ ex: <code>< input type = 'password' name = 'pwd' id = 'userPwd' placeholder = 'E
  }
  </script>
  </code>
+ </p>
