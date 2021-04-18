@@ -17,5 +17,26 @@ This library will help you out as a frontend input data encryption before callin
 # How to install this library
 <h6>No dependency library required, It's a core javascript library</h6>
 <h6>Does not required any jquery</h6>
-<h6>Only add this file into your project</h6>
+<h6>Only add this file into your project, like</h6>
 <p>ex: <code> "<script src ='crypto.js'></script>" </code></p>
+<h6>Congratulations, you are successfully installed this library</h6>
+
+# How to use it 
+
+<h6>Use crypto.encryptGenerator  this function for encrypt your data</h6>
+<p>ex : <code>crypto.encryptGenerator("your input data", "yourSecretKey");</code></p>
+<h6>Use crypto.decryptGenerator function for decrypt your data</h6>
+<p>ex : <code> crypto.decryptGenerator("RlJGdGptWTBGZ1Rya3NRaENYNTd4Slo1OUlBRXlWS2R8fDA4M2ZkMDExMTAxMDFmZDEwOWZkMTA1ZmQxMTZmZCUyMCVmZDA2N2ZkMDExMDEwMDBmZDAxMTAwMDAxZmQxMTZmZDExNmZkMTAxZmQxMTRmZDAxMTAxMDEwZmQxMDFmZDEwMWZkJTIwJWZkNTNmZmQ0OGFmZDUwY3x8MDgwZmQxMDk=", "yourSecretKey") </code></p>
+
+<h6>"yourSecretKey" this filed is mandatory for data encryption or decryption, & both should be matched</h6>
+<h6> Suppose you have a login form and you want your password should encrypted before calling any server technologies, then see the example </h6>
+ex: <code>< input type = 'password' name = 'pwd' id = 'userPwd' placeholder = 'Enter Password' ></code>
+<code>
+ <script type = 'text/javascript'>
+ function encwd(){
+     var getPwd = $("#userPwd").val();
+     encPwd = crypto.encryptGenerator(getPwd, "yourSecretKey");
+     $("#userPwd").val(encPwd);
+ }
+ </script>
+ </code>
