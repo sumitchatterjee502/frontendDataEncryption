@@ -26,7 +26,7 @@ This library will help you out as a frontend input data encryption before callin
 <h6>Use crypto.encryptGenerator  this function for encrypt your data</h6>
 <p>ex : <code>crypto.encryptGenerator("your input data", "yourSecretKey");</code></p>
 <h6>Use crypto.decryptGenerator function for decrypt your data</h6>
-<p>ex : <code> crypto.decryptGenerator("RlJGdGptWTBGZ1Rya3NRaENYNTd4Slo1OUlBRXlWS2R8fDA4M2ZkMDExMTAxMDFmZDEwOWZkMTA1ZmQxMTZmZCUyMCVmZDA2N2ZkMDExMDEwMDBmZDAxMTAwMDAxZmQxMTZmZDExNmZkMTAxZmQxMTRmZDAxMTAxMDEwZmQxMDFmZDEwMWZkJTIwJWZkNTNmZmQ0OGFmZDUwY3x8MDgwZmQxMDk=", "yourSecretKey") </code></p>
+<p>ex : <code> crypto.decryptGenerator("Your Encrypted Data", "yourSecretKey") </code></p>
 
 <h6>"yourSecretKey" this filed is mandatory for data encryption or decryption, & both should be matched</h6>
 <h6> Suppose you have a login form and you want your password should encrypted before calling any server technologies, then see the example </h6>
