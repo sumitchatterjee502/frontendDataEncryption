@@ -31,7 +31,8 @@ This library will help you out as a frontend input data encryption before callin
 <h6>"yourSecretKey" this filed is mandatory for data encryption or decryption, & both should be matched</h6>
 <h6>Use crypto.createUniqueKey function for random key generation</h6>
 <p>ex : <code>crypto.createUniqueKey(32)</code> 32 is a length of string for key generation</p>
-# Example
+
+# Example :
 <h6> Suppose you have a login form and you want your password should encrypted before calling any server technologies, then see the example </h6>
 <p>ex: <code>< input type = 'password' name = 'pwd' id = 'userPwd' placeholder = 'Enter Password' ></code></p>
 <p><pre>
